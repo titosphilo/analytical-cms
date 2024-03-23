@@ -800,7 +800,7 @@ export interface ApiBlogBlog extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    Title: Attribute.String;
+    Title: Attribute.String & Attribute.Required;
     Cover: Attribute.Media;
     Content: Attribute.RichText;
     keywords: Attribute.Text;
