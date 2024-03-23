@@ -27,8 +27,18 @@
         "audios"
       ]
     },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
     "Content": {
       "type": "richtext"
+    },
+    "Conclusion": {
+      "type": "text"
+    },
+    "FiledUnder": {
+      "type": "text"
     },
     "keywords": {
       "type": "text"

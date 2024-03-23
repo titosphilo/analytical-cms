@@ -802,7 +802,10 @@ export interface ApiBlogBlog extends Schema.CollectionType {
   attributes: {
     Title: Attribute.String & Attribute.Required;
     Cover: Attribute.Media;
+    subTitle: Attribute.Text & Attribute.Required;
     Content: Attribute.RichText;
+    Conclusion: Attribute.Text;
+    FiledUnder: Attribute.Text;
     keywords: Attribute.Text;
     metaTitle: Attribute.String;
     metaDescription: Attribute.Text;
