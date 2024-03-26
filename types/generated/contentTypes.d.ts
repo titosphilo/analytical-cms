@@ -834,7 +834,8 @@ export interface ApiSeoSeo extends Schema.CollectionType {
     Name: Attribute.String;
     Slug: Attribute.String;
     keywords: Attribute.Text;
-    SEO: Attribute.Component<'shared.seo'>;
+    metaTitle: Attribute.String;
+    metaDescription: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
